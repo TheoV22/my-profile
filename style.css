@@ -1,0 +1,110 @@
+/* Colors and fonts */
+
+body {
+    background-color: #DFDFDE;
+    color: rgb(50, 50, 50);
+    font-family: 'Lora', serif;;
+    font-size: 16px;
+}
+
+.card-white {
+    background: white;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0px 10px 30px rgb(0, 0, 0, 0.1);
+    margin: 30px 0px;
+    text-align: center;
+    
+}
+.container {
+    width: 700px;
+    margin: 30px auto;
+}
+
+@media (max-width: 720px) {
+    .container {
+        width: 600px;
+    }
+}
+
+@media (max-width: 550px) {
+    .container {
+        width: 400px;
+    }
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.button-blue {
+    background-color: #789395;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.button-blue:hover {
+    background-color: #94B49F;
+    color: white;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+
+.list-inline i {
+    font-size: 50px;
+    color: rgb(50, 50, 50, 0.5);
+}
+
+.list-inline i:hover {
+    color: #789395;
+}
+
+#introduction p {
+    margin-bottom: 35px;
+}
+
+h1, h2, h3 {    
+    font-family: 'Roboto Slab', serif;
+    font-weight: lighter;
+}
+
+h1 {
+    color: #789395;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+h2 {
+    color: #94B49F;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+    color: #B4CFB0;
+    font-weight: bold;
+    transition: color 0,3s ease;
+}
+
+a:hover{
+    color: brown;
+}
+
+.text-green {
+    color: #789395;
+}
+
+.text-bigger {
+    font-size: 18px;
+}
